@@ -3,7 +3,7 @@ import '../constant.dart';
 
 class CircleIcons extends StatelessWidget {
   final Widget icon;
-  CircleIcons({Key key, @required this.icon});
+  CircleIcons({Key key, @required this.icon}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Padding(

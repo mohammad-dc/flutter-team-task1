@@ -9,7 +9,7 @@ class UserNavBar extends StatelessWidget {
       child: Padding(
         padding: EdgeInsets.symmetric(horizontal: 10, vertical: 20),
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Container(
               child: Row(
